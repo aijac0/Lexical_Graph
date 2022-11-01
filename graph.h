@@ -6,6 +6,9 @@
 
 #include <vector>
 
+#ifndef GRAPH_HEADER
+#define GRAPH_HEADER
+
 
 template <typename E>
 class Graph<E>
@@ -62,3 +65,6 @@ class Graph<E>
 		// Disable copy constructor
 		Graph(const Graph & Rhs);
 };
+
+
+#endif
