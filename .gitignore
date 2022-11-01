@@ -1,2 +1,3 @@
 *.o
 lexical_graph
+*_ignore.cpp
