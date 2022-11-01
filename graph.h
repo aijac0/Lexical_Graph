@@ -60,7 +60,7 @@ class Graph<E>
 	private:
 
 		// Attributes
-		Vector<Vector<E>> nodes;
+		std::vector< *std::vector<E> > nodes;
 
 		// Disable copy constructor
 		Graph(const Graph & Rhs);
